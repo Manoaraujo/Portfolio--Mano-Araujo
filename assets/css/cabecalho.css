@@ -1,0 +1,12 @@
+.cabecalho {
+   align-items: center;
+   display: flex;
+   font-family: "montserrat";
+   justify-content: space-between;
+   padding: 1rem 2rem;
+}
+
+.container {
+   display: flex;
+   align-items: center;
+}

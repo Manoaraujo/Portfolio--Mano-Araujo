@@ -1,0 +1,8 @@
+.menu__link {
+   color: var(--vermelho-logo);
+   text-decoration: none;
+}
+
+.menu__link--email {
+   font-weight: 600;
+}
