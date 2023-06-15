@@ -5,9 +5,8 @@
    --vermelho-escuro: #8d0000;
 
    --vermelho-background: #fbefef;
-}
+   --cinza-medio: #636363;
+   --branco: #ffffff;
 
-.sobre {
-   background-color: var(--vermelho-background);
-   height: 300px;
+   font-family: "montserrat";
 }

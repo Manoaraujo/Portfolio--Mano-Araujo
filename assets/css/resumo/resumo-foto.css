@@ -1,0 +1,7 @@
+.resumo__foto {
+   position: relative;
+   left: 10%;
+   border-radius: 100%;
+   height: 250px;
+   width: 250px;
+}

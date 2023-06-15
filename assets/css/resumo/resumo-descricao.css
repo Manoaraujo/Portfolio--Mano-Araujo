@@ -1,0 +1,4 @@
+.resumo__descricao {
+   display: flex;
+   flex-direction: column;
+}

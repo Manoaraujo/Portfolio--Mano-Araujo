@@ -1,0 +1,23 @@
+.resumo__container {
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+
+   background: linear-gradient(
+      90deg,
+      var(--branco),
+      var(--vermelho-background) 50%
+   );
+
+   margin: 0 10%;
+   width: 70%;
+}
+
+.resumo__container--texto {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   width: 70%;
+   color: var(--cinza-medio);
+}
