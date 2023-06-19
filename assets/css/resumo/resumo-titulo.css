@@ -1,4 +1,9 @@
 .resumo__titulo {
+   width: 75%;
    font-size: 3rem;
-   text-align: center;
+   text-align: start;
+}
+.resumo__titulo::first-line {
+   font-size: 2rem;
+   text-align: start;
 }

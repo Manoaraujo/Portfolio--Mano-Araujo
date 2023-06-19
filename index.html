@@ -32,6 +32,42 @@
       <link href="assets/css/resumo/resumo-link.css" rel="stylesheet" />
       <link href="assets/css/resumo/resumo-titulo.css" rel="stylesheet" />
 
+      <link href="assets/css/sobre/sobre-container.css" rel="stylesheet" />
+      <link href="assets/css/sobre/sobre-texto.css" rel="stylesheet" />
+      <link href="assets/css/sobre/sobre-titulo.css" rel="stylesheet" />
+
+      <link
+         href="assets/css/habilidades/habilidades-container.css"
+         rel="stylesheet"
+      />
+      <link
+         href="assets/css/habilidades/habilidades-caixa.css"
+         rel="stylesheet"
+      />
+      <link
+         href="assets/css/habilidades/habilidades-lista.css"
+         rel="stylesheet"
+      />
+      <link href="assets/css/habilidades/habilidades.css" rel="stylesheet" />
+      <link
+         href="assets/css/habilidades/habilidades-titulo.css"
+         rel="stylesheet"
+      />
+      <link
+         href="assets/css/habilidades/habilidades-texto.css"
+         rel="stylesheet"
+      />
+
+      <link href="assets/css/Hobbies/hobbies-container.css" rel="stylesheet" />
+      <link href="assets/css/Hobbies/hobbies-caixa.css" rel="stylesheet" />
+      <link href="assets/css/Hobbies/hobbies-lista.css" rel="stylesheet" />
+      <link href="assets/css/Hobbies/hobbies-texto.css" rel="stylesheet" />
+      <link href="assets/css/Hobbies/Hobbies-titulo.css" rel="stylesheet" />
+      <link
+         href="assets/css/Hobbies/hobbies-musicPlayer.css"
+         rel="stylesheet"
+      />
+
       <title>Portfolio-Mano Araújo</title>
    </head>
    <body>
@@ -47,13 +83,13 @@
          <nav class="menu">
             <ul class="menu__lista">
                <li class="menu__item">
-                  <a href="#" class="menu__link">Sobre mim</a>
+                  <a href="#sobre" class="menu__link">Sobre mim</a>
                </li>
                <li class="menu__item">
-                  <a href="#" class="menu__link">Skills</a>
+                  <a href="#habilidades" class="menu__link">Habilidades</a>
                </li>
                <li class="menu__item">
-                  <a href="#" class="menu__link">Hobbies</a>
+                  <a href="#hobbies" class="menu__link">Hobbies</a>
                </li>
                <li class="menu__item">
                   <a href="#" class="menu__link">Formação</a>
@@ -74,7 +110,10 @@
       </header>
       <section class="resumo__container">
          <div class="resumo__container--texto">
-            <h1 class="resumo__titulo">Olá, me chamo Germano Araújo.</h1>
+            <h1 class="resumo__titulo">
+               Olá, me chamo <br />
+               Germano Araújo.
+            </h1>
             <p class="resumo__descricao">
                Atualmente estou participando no projeto Oracle ONE na Alura com
                o foco em Front-End.
@@ -118,6 +157,89 @@
             src="assets/img/mano01.jpg"
             alt="Foto Germano Araújo"
          />
+      </section>
+      <section id="sobre" class="sobre__container">
+         <h1 class="sobre__titulo">Sobre Mim</h1>
+         <p class="sobre__texto">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Pellentesque velit velit, volutpat semper dignissim dictum,
+            imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse
+            potenti. Ut semper sagittis ligula et lacinia. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit. Pellentesque velit velit,
+            volutpat semper dignissim dictum, imperdiet ut lacus. Quisque
+            gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis
+            ligula et lacinia. Aenean sit amet felis venenatis, egestas metus
+            vitae, aliquet metus.
+         </p>
+      </section>
+      <section id="habilidades" class="habilidades__container">
+         <h3 class="habilidades__titulo">Habilidades</h3>
+         <div class="habilidades__lista">
+            <div class="habilidades__caixa">
+               <img
+                  src="assets/img/html.svg"
+                  alt="logo html"
+                  class="habilidades__logo"
+               />
+               <p class="habilidades__texto">Html</p>
+            </div>
+            <div class="habilidades__caixa">
+               <img
+                  src="assets/img/css.svg"
+                  alt="logo css"
+                  class="habilidades__logo"
+               />
+               <p class="habilidades__texto">Css</p>
+            </div>
+            <div class="habilidades__caixa">
+               <img
+                  src="assets/img/javscript.svg"
+                  alt="Logo JavaScript"
+                  class="habilidades__logo"
+               />
+               <p class="habilidades__texto">JavaScript</p>
+            </div>
+         </div>
+      </section>
+      <section id="hobbies" class="hobbies__container">
+         <h3 class="hobbies__titulo">Hobbies</h3>
+         <div class="hobbies__lista">
+            <div class="hobbies__caixa-musica">
+               <iframe
+                  class="hobbies__musicPlayer"
+                  src="https://open.spotify.com/embed/artist/6MAz7gVZfGrbxLYBtW7mFs?utm_source=generator"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+               ></iframe>
+               <p class="hobbies__texto">Tocar baixo</p>
+            </div>
+            <div class="hobbies__caixa">
+               <img
+                  src="assets/img/joystick.svg"
+                  alt="imagem joystick"
+                  class="hobbies__logo"
+               />
+               <p class="hobbies__texto">Jogos</p>
+            </div>
+            <div class="hobbies__caixa">
+               <img
+                  src="assets/img/cozinhar.svg"
+                  alt="imagem cozinhar"
+                  class="hobbies__logo"
+               />
+               <p class="hobbies__texto">Cozinhar</p>
+            </div>
+            <div class="hobbies__caixa">
+               <img
+                  src="assets/img/praia.svg"
+                  alt="imagem praia"
+                  class="hobbies__logo"
+               />
+               <p class="hobbies__texto">Praia</p>
+            </div>
+         </div>
       </section>
    </body>
 </html>

@@ -1,0 +1,4 @@
+.habilidades__lista {
+   display: flex;
+   gap: 10px;
+}

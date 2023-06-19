@@ -1,0 +1,12 @@
+.sobre__texto {
+   width: 751px;
+   height: 133px;
+
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   /* margin-left: 1%; */
+
+   color: var(--cinza-medio);
+}
