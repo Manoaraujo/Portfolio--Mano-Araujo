@@ -1,4 +1,8 @@
 .habilidades__lista {
    display: flex;
-   gap: 10px;
+   align-items: center;
+   justify-content: space-around;
+   gap: 50px;
+   position: relative;
+   left: 7%;
 }

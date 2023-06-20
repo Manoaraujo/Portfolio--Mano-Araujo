@@ -1,11 +1,13 @@
 :root {
    --vermelho-logo: #c10b1c;
    --vermelho-claro: #f35353;
+
    --vermelho-vivo: #f00000;
    --vermelho-escuro: #8d0000;
 
    --vermelho-background: #fbefef;
    --cinza-medio: #636363;
+   --cinza-claro: #b5b3b3;
    --branco: #ffffff;
 
    font-family: "montserrat";

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -48,6 +48,10 @@
          href="assets/css/habilidades/habilidades-lista.css"
          rel="stylesheet"
       />
+      <link
+         href="assets/css/habilidades/habilidades-logo.css"
+         rel="stylesheet"
+      />
       <link href="assets/css/habilidades/habilidades.css" rel="stylesheet" />
       <link
          href="assets/css/habilidades/habilidades-titulo.css"
@@ -63,10 +67,17 @@
       <link href="assets/css/Hobbies/hobbies-lista.css" rel="stylesheet" />
       <link href="assets/css/Hobbies/hobbies-texto.css" rel="stylesheet" />
       <link href="assets/css/Hobbies/Hobbies-titulo.css" rel="stylesheet" />
+      <link href="assets/css/Hobbies/hobbies-logo.css" rel="stylesheet" />
+
       <link
-         href="assets/css/Hobbies/hobbies-musicPlayer.css"
+         href="assets/css/formacao/formacao-container.css"
          rel="stylesheet"
       />
+      <link href="assets/css/formacao/formacao-caixa.css" rel="stylesheet" />
+      <link href="assets/css/formacao/formacao-lista.css" rel="stylesheet" />
+      <link href="assets/css/formacao/formacao-texto.css" rel="stylesheet" />
+      <link href="assets/css/formacao/formacao-titulo.css" rel="stylesheet" />
+      <link href="assets/css/formacao/formacao-logo.css" rel="stylesheet" />
 
       <title>Portfolio-Mano Araújo</title>
    </head>
@@ -92,10 +103,10 @@
                   <a href="#hobbies" class="menu__link">Hobbies</a>
                </li>
                <li class="menu__item">
-                  <a href="#" class="menu__link">Formação</a>
+                  <a href="#formacao" class="menu__link">Formação</a>
                </li>
                <li class="menu__item">
-                  <a href="#" class="menu__link">Projetos</a>
+                  <a href="#projetos" class="menu__link">Projetos</a>
                </li>
                <li class="menu__item">
                   <a
@@ -161,41 +172,60 @@
       <section id="sobre" class="sobre__container">
          <h1 class="sobre__titulo">Sobre Mim</h1>
          <p class="sobre__texto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque velit velit, volutpat semper dignissim dictum,
-            imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse
-            potenti. Ut semper sagittis ligula et lacinia. Lorem ipsum dolor sit
-            amet, consectetur adipiscing elit. Pellentesque velit velit,
-            volutpat semper dignissim dictum, imperdiet ut lacus. Quisque
-            gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis
-            ligula et lacinia. Aenean sit amet felis venenatis, egestas metus
-            vitae, aliquet metus.
+            Sou uma pessoa apaixonada por música, gastronomia e programação. Me
+            formei em música pelo IFCE e gastronomia pelo SENAC, e atualmente
+            estudo front-end pelo programa Oracle ONE e Alura. Fora do trabalho
+            e dos estudos, toco baixo em uma banda de rock autoral chamada
+            Caseiro Nobre e relaxo jogando videogames e indo à praia. Estou
+            buscando combinar meus interesses em música, gastronomia e
+            programação para construir uma carreira que me proporcione
+            independência financeira e me permita expressar-me através das artes
+            que amo.
          </p>
       </section>
       <section id="habilidades" class="habilidades__container">
-         <h3 class="habilidades__titulo">Habilidades</h3>
          <div class="habilidades__lista">
-            <div class="habilidades__caixa">
+            <h3 class="habilidades__titulo">Habilidades</h3>
+            <div class="habilidades__caixa habilidades__caixa-illustrator">
                <img
-                  src="assets/img/html.svg"
+                  src="assets/img/logos-habilidades/ai.svg"
+                  alt="logo illustrator"
+                  class="habilidades__logo-illustrator"
+               />
+               <p class="habilidades__texto habilidades__texto-illustrator">
+                  Illustrator
+               </p>
+            </div>
+            <div class="habilidades__caixa habilidades__caixa-photoshop">
+               <img
+                  src="assets/img/logos-habilidades/photoshop.svg"
+                  class="habilidades__logo habilidades__logo-photoshop"
+               />
+               <p class="habilidades__texto habilidades__texto-photoshop">
+                  Photoshop
+               </p>
+            </div>
+            <div class="habilidades__caixa habilidades__caixa-html">
+               <img
+                  src="assets/img/logos-habilidades/html.svg"
                   alt="logo html"
-                  class="habilidades__logo"
+                  class="habilidades__logo habilidades__logo-html"
                />
                <p class="habilidades__texto">Html</p>
             </div>
-            <div class="habilidades__caixa">
+            <div class="habilidades__caixa habilidades__caixa-css">
                <img
-                  src="assets/img/css.svg"
+                  src="assets/img/logos-habilidades/css.svg"
                   alt="logo css"
-                  class="habilidades__logo"
+                  class="habilidades__logo habilidades__logo-css"
                />
                <p class="habilidades__texto">Css</p>
             </div>
-            <div class="habilidades__caixa">
+            <div class="habilidades__caixa habilidades__caixa-js">
                <img
-                  src="assets/img/javscript.svg"
+                  src="assets/img/logos-habilidades/javscript.svg"
                   alt="Logo JavaScript"
-                  class="habilidades__logo"
+                  class="habilidades__logo habilidades__logo-js"
                />
                <p class="habilidades__texto">JavaScript</p>
             </div>
@@ -204,40 +234,108 @@
       <section id="hobbies" class="hobbies__container">
          <h3 class="hobbies__titulo">Hobbies</h3>
          <div class="hobbies__lista">
-            <div class="hobbies__caixa-musica">
-               <iframe
-                  class="hobbies__musicPlayer"
-                  src="https://open.spotify.com/embed/artist/6MAz7gVZfGrbxLYBtW7mFs?utm_source=generator"
-                  frameborder="0"
-                  allowfullscreen=""
-                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                  loading="lazy"
-               ></iframe>
-               <p class="hobbies__texto">Tocar baixo</p>
-            </div>
-            <div class="hobbies__caixa">
+            <div class="hobbies__caixa hobbies__caixa-jogos">
                <img
-                  src="assets/img/joystick.svg"
+                  src="assets/img/logos-hobbies/joystick.svg"
                   alt="imagem joystick"
-                  class="hobbies__logo"
+                  class="hobbies__logo-jogos"
                />
-               <p class="hobbies__texto">Jogos</p>
+               <p class="hobbies__texto hobbies__texto-jogos">Jogos</p>
             </div>
-            <div class="hobbies__caixa">
+            <div class="hobbies__caixa hobbies__caixa-cozinhar">
                <img
-                  src="assets/img/cozinhar.svg"
+                  src="assets/img/logos-hobbies/cozinhar.svg"
                   alt="imagem cozinhar"
                   class="hobbies__logo"
                />
                <p class="hobbies__texto">Cozinhar</p>
             </div>
-            <div class="hobbies__caixa">
+            <div class="hobbies__caixa hobbies__caixa-praia">
                <img
-                  src="assets/img/praia.svg"
+                  src="assets/img/logos-hobbies/praia.svg"
                   alt="imagem praia"
-                  class="hobbies__logo"
+                  class="hobbies__logo-praia"
                />
                <p class="hobbies__texto">Praia</p>
+            </div>
+            <div class="hobbies__caixa hobbies__caixa-spotify">
+               <a
+                  href="https://open.spotify.com/intl-pt/artist/6MAz7gVZfGrbxLYBtW7mFs?si=GLQOHjzGRXGvXBob8Z3UkA"
+                  target="_blank"
+               >
+                  <img
+                     src="assets/img/logos-hobbies/spotify.svg"
+                     alt="logo Spotify"
+                     class="hobbies__logo-spotify"
+               /></a>
+
+               <p class="hobbies__texto">Banda Caseiro Nobre</p>
+            </div>
+         </div>
+      </section>
+      <section id="formacao" class="formacao__container">
+         <div class="formacao__lista">
+            <h3 class="formacao__titulo">
+               Formação <br />
+               acadêmica
+            </h3>
+            <div class="formacao__caixa formacao__caixa-ifce">
+               <img
+                  src="assets/img/logos-formacao/IFCE.svg"
+                  alt="Logo IFCE"
+                  class="formacao__logo-ifce"
+               />
+               <p class="formacao__texto formacao__texto-ifce">
+                  Tecnólogo em música
+               </p>
+            </div>
+
+            <div class="formacao__caixa formacao__caixa-senac">
+               <img
+                  src="assets/img/logos-formacao/senac_logo.svg"
+                  alt="Logo Senac"
+                  class="formacao__logo-senac"
+               />
+               <p class="formacao__texto formacao__texto-senac">
+                  Técnico em cozinha
+               </p>
+            </div>
+            <div class="formacao__caixa formacao__caixa-one">
+               <img
+                  src="assets/img/logos-formacao/logo-one.svg"
+                  alt="Logo ONE"
+                  class="formacao__logo-one"
+               />
+               <p class="formacao__texto formacao__texto-one">
+                  Front End T5 - ONE
+               </p>
+            </div>
+         </div>
+      </section>
+      <section class="projetos__container">
+         <div class="projetos__caixa">
+            <img
+               src=""
+               alt="print pagina decodificador"
+               class="projetos__imagem"
+            />
+            <h3 class="projetos__titulo">Decodificador de texto</h3>
+            <p class="projetos__texto">Challenge Alura codificador</p>
+            <div class="projetos__caixa-botoes">
+               <button class="projetos__button-repositorio">Repositório</button>
+               <button class="projetos__button-demo">Demo</button>
+            </div>
+         <div class="projetos__caixa">
+            <img
+               src=""
+               alt="print pagina tiro ao alvo"
+               class="projetos__imagem"
+            />
+            <h3 class="projetos__titulo">Tiro ao alvo</h3>
+            <p class="projetos__texto">Jogo tiro ao alvo</p>
+            <div class="projetos__caixa-botoes">
+               <button class="projetos__button-repositorio">Repositório</button>
+               <button class="projetos__button-demo">Demo</button>
             </div>
          </div>
       </section>

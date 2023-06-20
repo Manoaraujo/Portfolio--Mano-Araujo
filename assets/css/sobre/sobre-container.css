@@ -1,10 +1,9 @@
 .sobre__container {
    align-items: flex-start;
+   text-align: justify;
    display: flex;
    flex-direction: column;
    justify-content: space-evenly;
-   margin: 10px 0 0 12%;
-
-   /* width: 1136px;
-   height: 255px; */
+   margin-top: 3%;
+   margin-left: 15%;
 }

@@ -1,12 +1,11 @@
-.habilidades__container {
-   align-items: center;
+.formacao__container {
    display: flex;
+   align-items: center;
 
    justify-content: center;
    height: 200px;
    margin: 3% 0;
-   width: 88%;
-
+   width: 65%;
    background: linear-gradient(
       90deg,
       var(--branco),

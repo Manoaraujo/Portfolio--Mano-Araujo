@@ -1,5 +1,4 @@
 .habilidades__titulo {
-   color: var(--cinza-medio);
-   font-size: 2rem;
-   margin-top: 15px;
+   color: var(--cinza-claro);
+   font-size: 3rem;
 }

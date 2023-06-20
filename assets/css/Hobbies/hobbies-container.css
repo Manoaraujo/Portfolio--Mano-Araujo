@@ -1,13 +1,15 @@
 .hobbies__container {
-   align-items: flex-start;
-   padding-left: 12%;
+   align-items: center;
    display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
+
+   justify-content: flex-end;
+   height: 200px;
+   margin-top: 3%;
+   width: 75%;
+
    background: linear-gradient(
-      270deg,
+      90deg,
       var(--branco),
-      var(--vermelho-background) 50% 85%,
-      var(--branco)
+      var(--vermelho-background) 30%
    );
 }

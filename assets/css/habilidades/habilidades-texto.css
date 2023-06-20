@@ -1,5 +1,14 @@
 .habilidades__texto {
-   text-decoration: none;
    color: var(--vermelho-logo);
    font-weight: 500;
+}
+.habilidades__texto-illustrator {
+   color: var(--vermelho-logo);
+   font-weight: 500;
+   transform: scale(0.8);
+}
+.habilidades__texto-photoshop {
+   color: var(--vermelho-logo);
+   font-weight: 500;
+   transform: scale(0.9);
 }

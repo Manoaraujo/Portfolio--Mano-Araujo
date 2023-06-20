@@ -1,28 +1,27 @@
-.hobbies__caixa {
-   align-items: center;
+.formacao__caixa {
    background-color: var(--branco);
    border-radius: 100%;
    box-sizing: border-box;
+
+   align-items: center;
    display: flex;
    flex-direction: column;
    gap: 10px;
-   justify-content: flex-end;
-   padding: 25px;
+   justify-content: center;
    margin: 20px 0;
+   padding: 30px;
 }
-.hobbies__caixa-jogos {
-   height: 140px;
-   width: 140px;
-}
-.hobbies__caixa-cozinhar {
+.formacao__caixa-ifce {
    height: 160px;
    width: 160px;
+   padding: 45px;
 }
-.hobbies__caixa-praia {
+.formacao__caixa-senac {
    height: 185px;
    width: 185px;
 }
-.hobbies__caixa-spotify {
+
+.formacao__caixa-one {
    height: 200px;
    width: 200px;
    background: #fbdbde;
