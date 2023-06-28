@@ -1,7 +1,6 @@
 .hobbies__lista {
    display: flex;
    align-items: center;
+   justify-content: space-around;
    gap: 30px;
-   position: relative;
-   left: 10%;
 }

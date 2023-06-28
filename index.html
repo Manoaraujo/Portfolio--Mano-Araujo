@@ -79,6 +79,26 @@
       <link href="assets/css/formacao/formacao-titulo.css" rel="stylesheet" />
       <link href="assets/css/formacao/formacao-logo.css" rel="stylesheet" />
 
+      <link
+         href="assets/css/projetos/projetos-cabecalho.css"
+         rel="stylesheet"
+      />
+      <link
+         href="assets/css/projetos/projetos-container.css"
+         rel="stylesheet"
+      />
+      <link href="assets/css/projetos/projetos-logo.css" rel="stylesheet" />
+      <link href="assets/css/projetos/projetos-titulo.css" rel="stylesheet" />
+      <link href="assets/css/projetos/projetos-imagem.css" rel="stylesheet" />
+      <link href="assets/css/projetos/projetos-caixa.css" rel="stylesheet" />
+      <link href="assets/css/projetos/projetos-projetos.css" rel="stylesheet" />
+      <link
+         href="assets/css/projetos/projetos-descricao.css"
+         rel="stylesheet"
+      />
+      <link href="assets/css/projetos/projetos-nome.css" rel="stylesheet" />
+      <link href="assets/css/projetos/projetos-botao.css" rel="stylesheet" />
+
       <title>Portfolio-Mano Araújo</title>
    </head>
    <body>
@@ -86,7 +106,7 @@
          <div class="container">
             <img
                class="logo__mano"
-               src="assets/img/logo_ mano.png"
+               src="assets/img/logo_ mano.svg"
                alt="logo Mano Araújo"
             />
             <h3 class="nome">Germano Araújo</h3>
@@ -312,31 +332,70 @@
             </div>
          </div>
       </section>
-      <section class="projetos__container">
-         <div class="projetos__caixa">
+      <section id="projetos" class="projetos__container">
+         <div class="projetos__cabecalho">
+            <h3 class="projetos__titulo">Projetos</h3>
             <img
-               src=""
-               alt="print pagina decodificador"
-               class="projetos__imagem"
+               src="assets/img/logo-codigo.svg"
+               alt="logo projetos"
+               class="projetos__logo"
             />
-            <h3 class="projetos__titulo">Decodificador de texto</h3>
-            <p class="projetos__texto">Challenge Alura codificador</p>
-            <div class="projetos__caixa-botoes">
-               <button class="projetos__button-repositorio">Repositório</button>
-               <button class="projetos__button-demo">Demo</button>
+         </div>
+         <div class="projetos__projetos">
+            <div class="projetos__caixa">
+               <h3 class="projetos__nome">Decodificador</h3>
+               <p class="projetos__descricao">Challenge Alura Codificador</p>
+               <button class="projetos__botao-repositorio">
+                  <a
+                     href="https://github.com/Manoaraujo/Decodificador"
+                     class="projetos__botao-link"
+                     target="_blank"
+                     >Repositório</a
+                  ></button
+               ><button class="projetos__botao-demo">
+                  <a
+                     href="https://manoaraujo.github.io/Decodificador/"
+                     class="projetos__botao-link"
+                     target="_blank"
+                     >Demo</a
+                  >
+               </button>
             </div>
-         <div class="projetos__caixa">
             <img
-               src=""
-               alt="print pagina tiro ao alvo"
                class="projetos__imagem"
+               src="assets/img/decodificador.jpg"
+               alt=""
             />
-            <h3 class="projetos__titulo">Tiro ao alvo</h3>
-            <p class="projetos__texto">Jogo tiro ao alvo</p>
-            <div class="projetos__caixa-botoes">
-               <button class="projetos__button-repositorio">Repositório</button>
-               <button class="projetos__button-demo">Demo</button>
+         </div>
+         <div class="projetos__projetos projetos__projetos-tiro">
+            <div class="projetos__caixa">
+               <h3 class="projetos__nome projetos__nome-tiro">Tiro ao alvo</h3>
+               <p class="projetos__descricao projetos__descricao-tiro">
+                  Jogo de tiro ao alvo
+               </p>
+               <button
+                  class="projetos__botao-repositorio projetos__botao-repositorio-tiro"
+               >
+                  <a
+                     href="https://github.com/Manoaraujo/tiro-ao-alvo"
+                     class="projetos__botao-link"
+                     target="_blank"
+                     >Repositório</a
+                  ></button
+               ><button class="projetos__botao-demo projetos__botao-demo-tiro">
+                  <a
+                     href="https://manoaraujo.github.io/tiro-ao-alvo/"
+                     class="projetos__botao-link"
+                     target="_blank"
+                     >Demo</a
+                  >
+               </button>
             </div>
+            <img
+               class="projetos__imagem"
+               src="assets/img/tiro-ao-alvo.jpg"
+               alt=""
+            />
          </div>
       </section>
    </body>

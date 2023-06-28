@@ -1,0 +1,33 @@
+.projetos__botao-repositorio {
+   border-radius: 5px;
+   border: none;
+   background: var(--fonte-destaque);
+   height: 35px;
+   width: 100px;
+}
+.projetos__botao-demo {
+   border-radius: 5px;
+   border: none;
+   background: var(--fonte-medio);
+   height: 35px;
+   width: 100px;
+}
+.projetos__botao-repositorio-tiro {
+   background: var(--fonte-marinho);
+}
+.projetos__botao-demo-tiro {
+   background: var(--fonte-marinho-medio);
+}
+.projetos__botao-repositorio:hover {
+   transform: scale(1.1);
+   transition: 100ms ease-in-out;
+}
+.projetos__botao-demo:hover {
+   transform: scale(1.1);
+   transition: 100ms ease-in-out;
+}
+
+.projetos__botao-link {
+   text-decoration: none;
+   color: var(--branco);
+}

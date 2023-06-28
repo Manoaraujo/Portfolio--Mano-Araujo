@@ -1,13 +1,12 @@
 .resumo__link {
    display: flex;
    align-items: center;
-   color: var(--vermelho-escuro);
+   color: var(--fonte-destaque);
    font-size: 1rem;
    text-decoration: none;
 }
 .resumo__link:hover {
-   color: var(--vermelho-vivo);
-   transition: 0.5ms ease-in-out;
+   color: var(--fonte-medio);
 }
 .resumo__link img {
    margin: 0 0.25rem;

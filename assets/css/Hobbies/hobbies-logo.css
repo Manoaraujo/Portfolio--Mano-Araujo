@@ -7,3 +7,6 @@
 .hobbies__logo-spotify {
    transform: scale(1.2);
 }
+.hobbies__logo-spotify:hover {
+   transform: scale(1.4);
+}

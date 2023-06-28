@@ -1,7 +1,7 @@
 .hobbies__texto {
    text-align: center;
    text-decoration: none;
-   color: var(--vermelho-logo);
+   color: var(--fonte-destaque);
    font-weight: 500;
 }
 .hobbies__texto-jogos {

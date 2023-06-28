@@ -4,12 +4,12 @@
 
    justify-content: center;
    height: 200px;
-   margin: 3% 0;
-   width: 88%;
+   margin: 5% 0 1.5% 0;
 
    background: linear-gradient(
       90deg,
       var(--branco),
-      var(--vermelho-background) 30%
+      var(--gradient) 30% 88%,
+      var(--branco) 88%
    );
 }

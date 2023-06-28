@@ -3,10 +3,7 @@
    text-transform: lowercase;
    margin-right: 1.25rem;
 }
-
 .menu__item:hover {
-   color: var(--vermelho-claro);
-   text-decoration: underline;
    transform: scale(1.125);
    transition: 0.3ms ease-in-out;
 }

@@ -30,5 +30,5 @@
 .habilidades__caixa-js {
    height: 200px;
    width: 200px;
-   background: #fbdbde;
+   background: var(--destaque-caixa);
 }

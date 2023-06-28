@@ -1,11 +1,13 @@
 :root {
-   --vermelho-logo: #c10b1c;
-   --vermelho-claro: #f35353;
+   --background: #eaf2fd;
+   --destaque-caixa: #c6deff;
+   --fonte-destaque: #003887;
+   --fonte-medio: #1b6cde;
+   --gradient: #eaf2fd;
+   --gradient-marinho: #d0f5ef;
+   --fonte-marinho: #169680;
+   --fonte-marinho-medio: #06d7b4;
 
-   --vermelho-vivo: #f00000;
-   --vermelho-escuro: #8d0000;
-
-   --vermelho-background: #fbefef;
    --cinza-medio: #636363;
    --cinza-claro: #b5b3b3;
    --branco: #ffffff;

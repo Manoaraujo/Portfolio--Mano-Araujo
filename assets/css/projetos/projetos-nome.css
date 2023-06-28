@@ -1,0 +1,8 @@
+.projetos__nome {
+   color: var(--fonte-destaque);
+   font-weight: 500;
+   font-size: 1.25rem;
+}
+.projetos__nome-tiro {
+   color: var(--fonte-marinho);
+}

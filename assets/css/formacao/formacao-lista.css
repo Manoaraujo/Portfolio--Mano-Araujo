@@ -3,6 +3,5 @@
    align-items: center;
    justify-content: space-around;
    gap: 50px;
-   position: relative;
-   left: 10%;
+   /* margin-right: 20%; */
 }

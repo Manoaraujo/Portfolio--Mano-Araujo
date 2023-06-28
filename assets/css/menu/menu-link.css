@@ -1,8 +1,11 @@
 .menu__link {
-   color: var(--vermelho-logo);
+   color: var(--fonte-destaque);
    text-decoration: none;
 }
 
+.menu__link:hover {
+   color: var(--fonte-medio);
+}
 .menu__link--email {
    font-weight: 600;
 }

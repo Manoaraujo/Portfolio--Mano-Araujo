@@ -1,0 +1,15 @@
+.projetos__cabecalho {
+   align-items: center;
+   display: flex;
+
+   justify-content: flex-end;
+   gap: 25rem;
+   height: 180px;
+
+   background: linear-gradient(
+      90deg,
+      var(--branco),
+      var(--gradient) 30% 85%,
+      var(--branco) 85%
+   );
+}
