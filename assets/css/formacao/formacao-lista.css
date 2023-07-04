@@ -1,7 +1,13 @@
 .formacao__lista {
    display: flex;
    align-items: center;
-   justify-content: space-around;
-   gap: 50px;
-   /* margin-right: 20%; */
+   gap: 30px;
+   height: 200px;
+
+   background: linear-gradient(
+      90deg,
+      var(--branco),
+      var(--gradient) 30% 90%,
+      var(--branco) 78%
+   );
 }

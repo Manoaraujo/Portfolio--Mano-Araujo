@@ -1,0 +1,21 @@
+.contato__botao {
+   border-radius: 100%;
+   border: none;
+   background-color: var(--fonte-destaque);
+
+   cursor: pointer;
+
+   color: var(--branco);
+   font-family: var(--fonte-montserrat);
+   font-size: 1.1rem;
+
+   margin: 1%;
+
+   width: 80px;
+   height: 80px;
+}
+
+.contato__botao:hover {
+   transform: scale(1.1);
+   transition: 0.2s ease-in-out;
+}

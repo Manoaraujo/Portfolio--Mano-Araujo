@@ -2,6 +2,7 @@
    width: 75%;
    font-size: 3rem;
    text-align: start;
+   margin: 1.5% 0;
 }
 .resumo__titulo::first-line {
    font-size: 2rem;

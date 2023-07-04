@@ -3,20 +3,12 @@
    align-items: center;
    gap: 5rem;
    justify-content: center;
-   margin-top: 3%;
+   margin-top: 2%;
 
    background: linear-gradient(
       90deg,
       var(--branco),
       var(--gradient) 30% 70%,
-      var(--branco) 70%
-   );
-}
-.projetos__projetos-tiro {
-   background: linear-gradient(
-      90deg,
-      var(--branco),
-      var(--gradient-marinho) 30% 70%,
       var(--branco) 70%
    );
 }

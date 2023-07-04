@@ -1,0 +1,9 @@
+input:focus,
+textarea:focus {
+   outline: none;
+}
+.contato__campo {
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}

@@ -1,0 +1,16 @@
+.contato__escrita {
+   border: none;
+   background: var(--gradient);
+   border-radius: 10px;
+   box-sizing: border-box;
+   color: var(--fonte-destaque);
+   font-size: 1.1rem;
+   padding: 3px 8px;
+   width: 300px;
+   height: 2rem;
+}
+.contato__escrita--mensagem {
+   resize: none;
+   width: 450px;
+   height: 175px;
+}

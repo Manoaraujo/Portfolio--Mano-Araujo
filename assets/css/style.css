@@ -3,14 +3,53 @@
    --destaque-caixa: #c6deff;
    --fonte-destaque: #003887;
    --fonte-medio: #1b6cde;
-   --gradient: #eaf2fd;
-   --gradient-marinho: #d0f5ef;
-   --fonte-marinho: #169680;
-   --fonte-marinho-medio: #06d7b4;
-
+   --gradient: #eaf0f9;
+   --gradient-titulo: #d4e1f6;
+   
    --cinza-medio: #636363;
    --cinza-claro: #b5b3b3;
+   --cinza-claro2: #d4d2d2;
    --branco: #ffffff;
-
+   
+   --fonte-montserrat: font-family: "montserrat";
    font-family: "montserrat";
+}
+
+::-webkit-scrollbar {
+   width: 8px;
+}
+
+::-webkit-scrollbar-track {
+   background-color: var(--background);
+}
+::-webkit-scrollbar-thumb {
+   background-color: var(--destaque-caixa);
+}
+
+html, body {
+   
+   scroll-behavior: smooth;
+}
+
+.botao__topo {
+
+   border-radius: 100%;
+   border: none;
+   background-color: var(--fonte-destaque);
+   color: var(--gradient-titulo);
+   
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   text-decoration: none;
+   
+   position:fixed;
+   right: 10px;
+   bottom: 10px;
+   
+   width: 25px;
+   height: 25px;
+   
 }

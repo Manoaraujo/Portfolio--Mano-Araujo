@@ -1,4 +1,23 @@
 .projetos__imagem {
    width: 30%;
+   height: 215px;
    border-radius: 10px;
+}
+.projetos__imagem-decodificador {
+   background: url(../../img/decodificador-blue.png);
+   background-size: cover;
+}
+.projetos__imagem-tiro {
+   background: url(../../img/tiro-ao-alvo-blue.png);
+   background-size: cover;
+}
+
+.projetos__projetos-tiro:hover .projetos__imagem-tiro {
+   transition: 0.8s ease-in-out;
+   background-image: url(../../img/tiro-ao-alvo.jpg);
+}
+.projetos__projetos-decodificador:hover .projetos__imagem-decodificador {
+   transition: 0.8s ease-in-out;
+
+   background-image: url(../../img/decodificador.jpg);
 }

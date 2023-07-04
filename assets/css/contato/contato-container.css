@@ -1,5 +1,4 @@
-.projetos__container {
-   margin-top: 3%;
+.contato__container {
    display: flex;
    flex-direction: column;
 }

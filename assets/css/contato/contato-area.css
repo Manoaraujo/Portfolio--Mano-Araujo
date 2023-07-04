@@ -1,6 +1,7 @@
-.formacao__container {
+.contato__area {
    align-items: center;
    display: flex;
+   gap: 50px;
    justify-content: center;
-   margin: 1.5%;
+   margin: 2% 0;
 }

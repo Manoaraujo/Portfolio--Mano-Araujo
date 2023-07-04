@@ -1,15 +1,6 @@
 .hobbies__container {
    align-items: center;
    display: flex;
-   gap: 5rem;
    justify-content: center;
-   margin: 1.5% 0;
-   height: 200px;
-
-   background: linear-gradient(
-      90deg,
-      var(--branco),
-      var(--gradient) 30% 78%,
-      var(--branco) 78%
-   );
+   margin: 1.5%;
 }

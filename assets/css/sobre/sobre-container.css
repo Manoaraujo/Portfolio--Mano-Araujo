@@ -1,9 +1,0 @@
-.sobre__container {
-   align-items: flex-start;
-   text-align: justify;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-   margin-top: 3%;
-   margin-left: 15%;
-}

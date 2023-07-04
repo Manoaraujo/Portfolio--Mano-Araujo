@@ -1,15 +1,7 @@
 .habilidades__container {
    align-items: center;
    display: flex;
-
    justify-content: center;
-   height: 200px;
-   margin: 5% 0 1.5% 0;
-
-   background: linear-gradient(
-      90deg,
-      var(--branco),
-      var(--gradient) 30% 88%,
-      var(--branco) 88%
-   );
+   margin: 1.5%;
+   margin-top: 6%;
 }
