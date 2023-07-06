@@ -2,5 +2,11 @@
    display: flex;
    align-items: center;
    gap: 20px;
-   margin: 1.5% 0;
+   margin: 2% 0 1.5% 0;
+}
+
+@media screen and (max-width: 769px) {
+   .resumo__lista {
+      margin: 1% 0 2% 0;
+   }
 }

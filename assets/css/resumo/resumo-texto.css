@@ -1,8 +1,25 @@
 .resumo__texto {
-   width: 751px;
-   height: 110px;
+   width: 700px;
+   height: 150px;
 
    line-height: 1.2rem;
 
    color: var(--cinza-medio);
+}
+@media screen and (max-width: 1025px) {
+   .resumo__texto {
+      width: 600px;
+      height: 150px;
+      font-size: 1rem;
+
+      line-height: 1.1rem;
+   }
+}
+@media screen and (max-width: 769px) {
+   .resumo__texto {
+      width: 465px;
+
+      font-size: 0.7rem;
+      line-height: 1rem;
+   }
 }

@@ -5,25 +5,32 @@
    box-sizing: border-box;
    display: flex;
    flex-direction: column;
-   gap: 10px;
+   gap: 0.625rem;
    justify-content: flex-end;
-   padding: 25px;
-   margin: 20px 0;
+   padding: 1.562rem;
+   height: 12.5rem;
 }
 .hobbies__caixa-jogos {
-   height: 140px;
-   width: 140px;
+   height: 8.75rem;
+   width: 8.75rem;
 }
 .hobbies__caixa-cozinhar {
-   height: 160px;
-   width: 160px;
+   height: 10rem;
+   width: 10rem;
 }
 .hobbies__caixa-praia {
-   height: 185px;
-   width: 185px;
+   height: 11.562rem;
+   width: 11.562rem;
 }
+
 .hobbies__caixa-spotify {
-   height: 200px;
-   width: 200px;
+   height: 12.5rem;
+   width: 12.5rem;
    background: var(--destaque-caixa);
+}
+
+@media screen and (max-width: 769px) {
+   :root {
+      font-size: 14px;
+   }
 }

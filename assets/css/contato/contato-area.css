@@ -1,7 +1,6 @@
 .contato__area {
    align-items: center;
    display: flex;
-   gap: 50px;
-   justify-content: center;
-   margin: 2% 0;
+   flex-direction: column;
+   gap: 10px;
 }

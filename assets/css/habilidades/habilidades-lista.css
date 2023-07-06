@@ -1,8 +1,8 @@
 .habilidades__lista {
    display: flex;
    align-items: center;
-   gap: 30px;
-   height: 200px;
+   gap: 1.875rem;
+   height: 12.5rem;
 
    background: linear-gradient(
       90deg,
@@ -10,4 +10,26 @@
       var(--gradient) 30% 92%,
       var(--branco) 78%
    );
+}
+
+@media screen and (max-width: 1025px) {
+   .habilidades__lista {
+      transform: scale(0.8);
+   }
+}
+@media screen and (max-width: 769px) {
+   .habilidades__lista {
+      display: flex;
+      align-items: center;
+      gap: 0.9375rem;
+
+      margin: 1%;
+
+      background: linear-gradient(
+         90deg,
+         var(--branco),
+         var(--gradient) 30% 91%,
+         var(--branco) 78%
+      );
+   }
 }

@@ -1,13 +1,32 @@
 .formacao__lista {
    display: flex;
    align-items: center;
-   gap: 30px;
-   height: 200px;
+   gap: 1.875rem;
+   height: 12.5rem;
 
    background: linear-gradient(
       90deg,
       var(--branco),
       var(--gradient) 30% 90%,
+      var(--branco) 78%
+   );
+}
+@media screen and (max-width: 1024px) {
+   .formacao__lista {
+      transform: scale(0.8);
+   }
+}
+@media screen and (max-width: 768px) {
+}
+.formacao__lista {
+   display: flex;
+   align-items: center;
+   gap: 0.9375rem;
+
+   background: linear-gradient(
+      90deg,
+      var(--branco),
+      var(--gradient) 30% 87%,
       var(--branco) 78%
    );
 }

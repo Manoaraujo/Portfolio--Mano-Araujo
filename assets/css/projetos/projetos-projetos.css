@@ -4,6 +4,7 @@
    gap: 5rem;
    justify-content: center;
    margin-top: 2%;
+   height: 11.875rem;
 
    background: linear-gradient(
       90deg,
@@ -11,4 +12,16 @@
       var(--gradient) 30% 70%,
       var(--branco) 70%
    );
+}
+
+@media screen and (max-width: 1025px) {
+   .projetos__projetos {
+      margin-top: 3%;
+   }
+}
+@media screen and (max-width: 769px) {
+   .projetos__projetos {
+      height: 10.625rem;
+      margin-top: 3%;
+   }
 }

@@ -31,6 +31,11 @@ html, body {
    scroll-behavior: smooth;
 }
 
+
+.mensagem-erro{
+   font-size: 0.8rem;
+   color: red;
+}
 .botao__topo {
 
    border-radius: 100%;
@@ -45,11 +50,12 @@ html, body {
    
    text-decoration: none;
    
+   
    position:fixed;
    right: 10px;
    bottom: 10px;
    
-   width: 25px;
-   height: 25px;
+   width: 30px;
+   height: 30px;
    
 }

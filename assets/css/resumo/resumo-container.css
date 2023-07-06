@@ -2,12 +2,13 @@
    align-items: center;
    display: flex;
    justify-content: center;
+   height: 325px;
 
    background: linear-gradient(
       90deg,
       var(--branco),
-      var(--gradient-titulo) 50% 85%,
-      var(--branco) 85%
+      var(--gradient-titulo) 50% 83%,
+      var(--branco) 83%
    );
 }
 
@@ -15,7 +16,23 @@
    align-items: center;
    display: flex;
    flex-direction: column;
-   gap: 14px;
-   width: 70%;
+   gap: 10px;
+   margin: 2%;
+   width: 60%;
    color: var(--cinza-medio);
+}
+
+@media screen and (max-width: 769px) {
+   .resumo__container {
+      height: 200px;
+   }
+
+   .resumo__container--texto {
+      box-sizing: border-box;
+      margin: 2%;
+      height: 200px;
+      gap: 5px;
+      align-items: flex-start;
+      padding: 5px;
+   }
 }

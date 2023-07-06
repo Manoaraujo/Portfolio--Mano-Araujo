@@ -12,3 +12,9 @@
    margin: 0 0.25rem;
    height: 0.8rem;
 }
+
+@media screen and (max-width: 769px) {
+   .resumo__link {
+      font-size: 0.8rem;
+   }
+}

@@ -1,16 +1,22 @@
 .contato__escrita {
+   color: var(--fonte-destaque);
    border: none;
    background: var(--gradient);
    border-radius: 10px;
    box-sizing: border-box;
-   color: var(--fonte-destaque);
    font-size: 1.1rem;
    padding: 3px 8px;
-   width: 300px;
+   width: 18.75px;
    height: 2rem;
 }
 .contato__escrita--mensagem {
    resize: none;
-   width: 450px;
-   height: 175px;
+   width: 28.125rem;
+   height: 10.937rem;
+}
+
+@media screen and (max-width: 769px) {
+   .contato__escrita {
+      width: 28.125rem;
+   }
 }

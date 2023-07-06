@@ -8,3 +8,16 @@
    font-size: 2rem;
    text-align: start;
 }
+
+@media screen and (max-width: 769px) {
+   .resumo__titulo {
+      width: 75%;
+      font-size: 1.75rem;
+      text-align: start;
+      margin: 0;
+   }
+   .resumo__titulo::first-line {
+      font-size: 1.2rem;
+      text-align: start;
+   }
+}

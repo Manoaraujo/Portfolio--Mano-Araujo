@@ -1,11 +1,11 @@
 .projetos__cabecalho {
    display: grid;
-   margin-top: 3%;
-   height: 180px;
+   gap: 10rem;
+   margin: 2% 0;
    background: linear-gradient(
       90deg,
       var(--branco),
-      var(--gradient-titulo) 30% 75%,
+      var(--gradient-titulo) 30% 81%,
       var(--branco) 75%
    );
    grid-template-columns: 1fr 1fr;

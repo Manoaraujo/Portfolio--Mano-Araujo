@@ -7,3 +7,12 @@
 .formacao__logo-one {
    transform: scale(0.9);
 }
+
+@media screen and (max-width: 769px) {
+   :root {
+      font-size: 14px;
+   }
+   .formacao__logo-ifce {
+      transform: scale(0.9);
+   }
+}

@@ -2,3 +2,8 @@
    color: var(--cinza-claro);
    font-size: 3rem;
 }
+@media screen and (max-width: 769px) {
+   .formacao__titulo {
+      font-size: 1.8rem;
+   }
+}

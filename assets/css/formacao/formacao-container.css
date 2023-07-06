@@ -3,4 +3,19 @@
    display: flex;
    justify-content: center;
    margin: 1.5%;
+   height: 12.5rem;
+}
+@media screen and (max-width: 1024px) {
+   .formacao__container {
+      margin: 0;
+   }
+}
+@media screen and (max-width: 769px) {
+   :root {
+      font-size: 14px;
+   }
+   .formacao__container {
+      margin: 2% 0;
+      height: 10rem;
+   }
 }

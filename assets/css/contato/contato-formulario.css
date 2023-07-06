@@ -1,5 +1,14 @@
 .contato__formulario {
+   align-items: center;
+   gap: 3.125rem;
    display: flex;
-   flex-direction: column;
-   gap: 10px;
+   justify-content: center;
+   margin-top: 2%;
+}
+@media screen and (max-width: 769px) {
+   .contato__formulario {
+      gap: 0.625rem;
+      display: flex;
+      flex-direction: column;
+   }
 }

@@ -6,3 +6,12 @@
 .formacao__texto-ifce {
    transform: scale(0.8);
 }
+
+@media screen and (max-width: 769px) {
+   :root {
+      font-size: 14px;
+   }
+   .formacao__texto-ifce {
+      transform: scale(0.8);
+   }
+}

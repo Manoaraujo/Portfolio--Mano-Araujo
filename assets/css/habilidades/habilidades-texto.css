@@ -8,3 +8,8 @@
 .habilidades__texto-photoshop {
    transform: scale(0.9);
 }
+
+@media screen and (max-width: 1025px) {
+}
+@media screen and (max-width: 769px) {
+}

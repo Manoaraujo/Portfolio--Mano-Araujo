@@ -5,5 +5,10 @@ textarea:focus {
 .contato__campo {
    display: flex;
    flex-direction: column;
-   gap: 5px;
+   gap: 0.3125rem;
+}
+@media screen and (max-width: 769px) {
+   .contato__campo {
+      width: 28.125rem;
+   }
 }

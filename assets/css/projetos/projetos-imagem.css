@@ -1,6 +1,6 @@
 .projetos__imagem {
    width: 30%;
-   height: 215px;
+   height: 13.437rem;
    border-radius: 10px;
 }
 .projetos__imagem-decodificador {
@@ -20,4 +20,9 @@
    transition: 0.8s ease-in-out;
 
    background-image: url(../../img/decodificador.jpg);
+}
+@media screen and (max-width: 769px) {
+   .projetos__imagem {
+      height: 10.625rem;
+   }
 }

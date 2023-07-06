@@ -1,5 +1,11 @@
 .resumo__foto {
    border-radius: 100%;
-   height: 326px;
-   width: 326px;
+   height: 325px;
+   width: 325px;
+}
+@media screen and (max-width: 769px) {
+   .resumo__foto {
+      height: 200px;
+      width: 200px;
+   }
 }
