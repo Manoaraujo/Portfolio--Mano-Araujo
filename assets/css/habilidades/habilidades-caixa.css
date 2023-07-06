@@ -32,10 +32,19 @@
    background: var(--destaque-caixa);
 }
 
-@media screen and (max-width: 1025px) {
-}
 @media screen and (max-width: 769px) {
    :root {
       font-size: 14px;
+   }
+}
+@media screen and (max-width: 426px) {
+   :root {
+      font-size: 14px;
+   }
+   .habilidades__caixa {
+      order: 2;
+      background-color: var(--gradient);
+      height: 8.75rem;
+      width: 8.75rem;
    }
 }

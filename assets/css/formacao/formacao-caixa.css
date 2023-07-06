@@ -14,6 +14,7 @@
    height: 10rem;
    width: 10rem;
    padding: 2.812rem;
+   justify-content: center;
 }
 .formacao__caixa-senac {
    height: 11.562rem;
@@ -34,5 +35,14 @@
    .formacao__caixa-ifce {
       justify-content: center;
       gap: 0.5rem;
+   }
+}
+
+@media screen and (max-width: 426px) {
+   .formacao__caixa {
+      order: 2;
+      background-color: var(--gradient);
+      height: 8.75rem;
+      width: 8.75rem;
    }
 }

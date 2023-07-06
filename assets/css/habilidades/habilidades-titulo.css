@@ -8,3 +8,10 @@
       font-size: 1.8rem;
    }
 }
+
+@media screen and (max-width: 426px) {
+   .habilidades__titulo {
+      order: 1;
+      font-size: 1.8rem;
+   }
+}

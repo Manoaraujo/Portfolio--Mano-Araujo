@@ -1,6 +1,6 @@
 .contato__cabecalho {
    display: grid;
-   gap: 10rem;
+   gap: 22rem;
    margin: 2% 0;
    background: linear-gradient(
       90deg,
@@ -15,5 +15,23 @@
 @media screen and (max-width: 1024px) {
    .contato__cabecalho {
       margin-top: 0;
+      gap: 18rem;
+   }
+}
+@media screen and (max-width: 769px) {
+   .contato__cabecalho {
+      gap: 15rem;
+   }
+}
+
+@media screen and (max-width: 426px) {
+   .contato__cabecalho {
+      gap: 6rem;
+      background: linear-gradient(
+         90deg,
+         var(--branco),
+         var(--gradient-titulo) 30% 81%,
+         var(--branco) 75%
+      );
    }
 }

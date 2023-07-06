@@ -2,7 +2,7 @@
    align-items: center;
    display: flex;
    justify-content: center;
-   height: 325px;
+   height: 20.3125rem;
 
    background: linear-gradient(
       90deg,
@@ -24,13 +24,29 @@
 
 @media screen and (max-width: 769px) {
    .resumo__container {
-      height: 200px;
+      height: 12.5rem;
    }
 
    .resumo__container--texto {
       box-sizing: border-box;
       margin: 2%;
-      height: 200px;
+      height: 12.5rem;
+      gap: 5px;
+      align-items: flex-start;
+      padding: 5px;
+   }
+}
+@media screen and (max-width: 426px) {
+   .resumo__container {
+      height: 22rem;
+      background: linear-gradient(0deg, var(--branco), var(--gradient) 60%);
+   }
+
+   .resumo__container--texto {
+      display: flex;
+      box-sizing: border-box;
+      margin: 2%;
+      height: 20rem;
       gap: 5px;
       align-items: flex-start;
       padding: 5px;

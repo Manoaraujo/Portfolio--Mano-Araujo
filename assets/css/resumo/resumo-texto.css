@@ -1,6 +1,6 @@
 .resumo__texto {
-   width: 700px;
-   height: 150px;
+   width: 43.75rem;
+   height: 9.375rem;
 
    line-height: 1.2rem;
 
@@ -8,8 +8,8 @@
 }
 @media screen and (max-width: 1025px) {
    .resumo__texto {
-      width: 600px;
-      height: 150px;
+      width: 37.5rem;
+      height: 9.375rem;
       font-size: 1rem;
 
       line-height: 1.1rem;
@@ -17,7 +17,16 @@
 }
 @media screen and (max-width: 769px) {
    .resumo__texto {
-      width: 465px;
+      width: 29.062rem;
+
+      font-size: 0.7rem;
+      line-height: 1rem;
+   }
+}
+@media screen and (max-width: 426px) {
+   .resumo__texto {
+      width: 15rem;
+      height: 15rem;
 
       font-size: 0.7rem;
       line-height: 1rem;

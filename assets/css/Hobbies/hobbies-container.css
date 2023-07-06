@@ -20,3 +20,8 @@
       height: 10rem;
    }
 }
+@media screen and (max-width: 426px) {
+   .hobbies__container {
+      height: 15.5rem;
+   }
+}

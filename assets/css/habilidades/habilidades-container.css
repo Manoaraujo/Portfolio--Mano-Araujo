@@ -22,3 +22,8 @@
       height: 10rem;
    }
 }
+@media screen and (max-width: 426px) {
+   .habilidades__container {
+      height: 18.5rem;
+   }
+}

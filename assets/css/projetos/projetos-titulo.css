@@ -3,3 +3,8 @@
    font-size: 3.5rem;
    justify-self: right;
 }
+@media screen and (max-width: 769px) {
+   .projetos__titulo {
+      font-size: 3rem;
+   }
+}

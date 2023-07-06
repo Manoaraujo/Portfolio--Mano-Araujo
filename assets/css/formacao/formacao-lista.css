@@ -30,3 +30,15 @@
       var(--branco) 78%
    );
 }
+@media screen and (max-width: 426px) {
+   .formacao__lista {
+      background: none;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 0.9375rem;
+      margin: 1%;
+      justify-items: center;
+      height: 18.5rem;
+   }
+}

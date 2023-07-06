@@ -17,15 +17,18 @@
       transform: scale(0.8);
    }
 }
-.habilidades__lista {
-   display: flex;
-   align-items: center;
+.hobbies__lista {
    gap: 0.9375rem;
-
-   background: linear-gradient(
-      90deg,
-      var(--branco),
-      var(--gradient) 30% 91%,
-      var(--branco) 78%
-   );
+}
+@media screen and (max-width: 426px) {
+   .hobbies__lista {
+      background: none;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 0.9375rem;
+      margin: 1%;
+      justify-items: center;
+      height: 18.5rem;
+   }
 }

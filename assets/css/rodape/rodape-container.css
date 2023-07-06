@@ -10,7 +10,5 @@
 
    background: linear-gradient(180deg, var(--branco), var(--gradient) 15%);
 
-   /* background: var(--gradient); */
-
-   height: 300 px;
+   height: 8.75rem;
 }
