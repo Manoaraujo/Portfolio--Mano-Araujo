@@ -12,12 +12,24 @@
 @media screen and (max-width: 769px) {
    .resumo__titulo {
       width: 75%;
-      font-size: 1.75rem;
+      font-size: 1.5rem;
       text-align: start;
       margin: 0;
    }
    .resumo__titulo::first-line {
+      font-size: 1rem;
+      text-align: start;
+   }
+}
+@media screen and (max-width: 426px) {
+   .resumo__titulo {
+      width: 75%;
       font-size: 1.2rem;
+      text-align: start;
+      margin: 0;
+   }
+   .resumo__titulo::first-line {
+      font-size: 0.8rem;
       text-align: start;
    }
 }

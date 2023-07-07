@@ -38,7 +38,7 @@
 }
 @media screen and (max-width: 426px) {
    .resumo__container {
-      height: 22rem;
+      height: 23rem;
       background: linear-gradient(0deg, var(--branco), var(--gradient) 60%);
    }
 

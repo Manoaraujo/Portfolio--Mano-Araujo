@@ -1,8 +1,9 @@
 .resumo__texto {
    width: 43.75rem;
    height: 9.375rem;
+   font-size: 0.875rem;
 
-   line-height: 1.2rem;
+   line-height: 1rem;
 
    color: var(--cinza-medio);
 }
@@ -10,25 +11,26 @@
    .resumo__texto {
       width: 37.5rem;
       height: 9.375rem;
-      font-size: 1rem;
+      font-size: 0.75rem;
 
-      line-height: 1.1rem;
+      line-height: 1rem;
    }
 }
 @media screen and (max-width: 769px) {
    .resumo__texto {
-      width: 29.062rem;
+      width: 33rem;
+      height: 7.5rem;
 
-      font-size: 0.7rem;
-      line-height: 1rem;
+      font-size: 0.65rem;
+      line-height: 0.78rem;
    }
 }
 @media screen and (max-width: 426px) {
    .resumo__texto {
-      width: 15rem;
-      height: 15rem;
+      width: 16rem;
+      height: 16rem;
 
       font-size: 0.7rem;
-      line-height: 1rem;
+      line-height: 0.7rem;
    }
 }

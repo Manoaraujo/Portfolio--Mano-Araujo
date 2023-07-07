@@ -8,5 +8,6 @@
 @media screen and (max-width: 769px) {
    .resumo__lista {
       margin: 1% 0 2% 0;
+      height: 0.75rem;
    }
 }
