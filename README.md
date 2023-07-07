@@ -27,6 +27,7 @@ Portfólio feito como desafio do programa Challenge ONE (Oracle Next Education).
 
 ## Preview
 
+![](https://github.com/Manoaraujo/Portfolio--Mano-Araujo/assets/120426280/ae986b7f-f38d-474d-96d7-c1fc8533b1cf)
 
-(https://github.com/Manoaraujo/Portfolio--Mano-Araujo/assets/120426280/d6de0079-e651-4833-83cb-18f3d1d2726c)
+
 
